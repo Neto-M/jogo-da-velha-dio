@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+}
+
+.bg {
+    background-image: url("pixel-jeff-clipa-s.gif");
+    background-position: center;
+    background-size: cover;
+}
+
+.textoJogoDaVelha {
+    font-style: italic;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #C8A2C8;
+}
+
+.quadrado {
+    text-align: center;
+    width: 50px;
+    background: #eee;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    color: #eee;
+    opacity: 70%;
+}
+
+.jogador, .vencedor {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.tela {
+    text-align: center;
+    width: 400px;
+    background: #eee;
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    height: 140;
+    opacity: 70%;
+}
+
+button {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background: #eee;
+    cursor: pointer;
+}
